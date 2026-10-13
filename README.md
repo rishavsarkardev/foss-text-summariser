@@ -110,8 +110,9 @@ The application's user interface is implemented in `app.py`.
 foss-text-summariser/
 │
 ├── app.py                      # Streamlit user interface
-├── text_summariser.py          # Text chunking and summarisation pipeline
-├── prompt_template_strings.py  # Custom prompt templates
+├── model
+  ├── text_summariser.py          # Text chunking and summarisation pipeline
+  ├── prompt_template_strings.py  # Custom prompt templates
 ├── .env                        # OpenAI API key (not committed)
 ├── .gitignore                  # Files excluded from Git
 └── README.md                   # Project documentation
