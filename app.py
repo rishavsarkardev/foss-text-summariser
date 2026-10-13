@@ -43,6 +43,4 @@ with col2:
         else:
             output_container.error("Please type something here!")
     else:
-        output_container.info(
-            "Your summary will be here"
-        )
+        output_container.info("Your summary will be here")
