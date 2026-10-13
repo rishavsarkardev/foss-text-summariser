@@ -167,12 +167,6 @@ source venv/bin/activate
 Install the required packages:
 
 ```bash
-pip install streamlit langchain langchain-openai langchain-core langchain-text-splitters tiktoken python-dotenv
-```
-
-If your repository contains a `requirements.txt` file, you can install the dependencies using:
-
-```bash
 pip install -r requirements.txt
 ```
 
@@ -225,5 +219,3 @@ The goal of this project is to explore the practical implementation of Large Lan
 - GitHub: [@rishavsarkardev](https://github.com/rishavsarkardev)
 
 ---
-
-*Built with Python, LangChain, and OpenAI.*
