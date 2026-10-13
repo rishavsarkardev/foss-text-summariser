@@ -16,7 +16,7 @@ with col1:
     input_text = st.text_area("Enter your text:", height=300,placeholder="Paste your text here", key="text_to_summarise")
 
 
-    summary_length = st.slider("Summary Length (words):", min_value=10, max_value=300, value=50)
+    summary_length = st.slider("Summary Length (words):", min_value=10, max_value=1000, value=50)
 
 
     col11, col12 = st.columns(2)
