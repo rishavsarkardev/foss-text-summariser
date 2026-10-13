@@ -118,8 +118,6 @@ foss-text-summariser/
 └── README.md                   # Project documentation
 ```
 
-*Note: The structure above is illustrative. Adjust the filenames and directories to match the actual repository.*
-
 ## 🚀 Getting Started
 
 Follow these steps to run the application locally.
@@ -179,8 +177,6 @@ OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 Replace `your_openai_api_key_here` with your actual OpenAI API key.
-
-**Important:** Never commit your `.env` file or expose your API key publicly. Add `.env` to your `.gitignore` file.
 
 ### 5. Run the Application
 
