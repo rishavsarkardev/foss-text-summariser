@@ -31,7 +31,7 @@ final_refined_chain = FINAL_REFINED_PROMPT | summary_gen_pipeline | parser
 
 def text_to_chunk_convert(text):
     text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        model_name="gpt-4o-mini",
+        model_name="gpt-3.5-turbo",
         chunk_size=2500,
         chunk_overlap=200
     )
